@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import "./app.css";
+import "./App.css";
 import Routing from "./components/Routing/Routing";
 import { jwtDecode } from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
