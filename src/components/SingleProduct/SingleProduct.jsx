@@ -6,6 +6,7 @@ import useData from "../hooks/useData";
 import Loader from "../Common/Loader";
 import CartContext from "../../contexts/CartContext";
 import UserContext from "../../contexts/UserContext";
+import backendURL from "../../utils/config";
 
 // const product = {
 //   id: 1,
@@ -52,7 +53,7 @@ const SingleProduct = () => {
               images.map((image, index) => (
                 <img
                   key={index}
-                  src={`http://localhost:8000/products/${image}`}
+                  src={`${backendURL}/products/${image}`}
                   className={
                     index === selectedImage
                       ? "single_image selected"
@@ -66,7 +67,7 @@ const SingleProduct = () => {
           <div>
             <img
               className="selected_product"
-              src={`http://localhost:8000/products/${images[selectedImage]}`}
+              src={`${backendURL}/products/${images[selectedImage]}`}
               alt="images"
             ></img>
           </div>

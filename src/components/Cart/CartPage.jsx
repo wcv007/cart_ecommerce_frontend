@@ -8,6 +8,7 @@ import UserContext from "../../contexts/UserContext";
 import CartContext from "../../contexts/CartContext";
 import { checkoutCartAPI } from "../../services/cartServices";
 import { toast } from "react-toastify";
+import backendURL from "../../utils/config";
 
 const CartPage = () => {
   const [cartTotal, setCartTotal] = useState(0);
@@ -57,7 +58,7 @@ const CartPage = () => {
         <div className="user_image_wrapper">
           <img
             className="user_image"
-            src={`http://localhost:8000/profile/${userObj?.profilePic}`}
+            src={`${backendURL}/profile/${userObj?.profilePic}`}
             alt="user img"
           ></img>
         </div>

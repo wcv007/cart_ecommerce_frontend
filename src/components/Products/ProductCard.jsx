@@ -5,6 +5,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import CartContext from "../../contexts/CartContext";
 import UserContext from "../../contexts/UserContext";
+import backendURL from "../../utils/config";
 const ProductCard = ({ product = {} }) => {
   const {
     images = [],
@@ -22,7 +23,7 @@ const ProductCard = ({ product = {} }) => {
         <NavLink className="product_image_wrapper" to={`/products/${_id}`}>
           <img
             className="product_image"
-            src={`http://localhost:8000/products/${images[0]}`}
+            src={`${backendURL}/products/${images[0]}`}
             alt="iphone img"
           ></img>
         </NavLink>
