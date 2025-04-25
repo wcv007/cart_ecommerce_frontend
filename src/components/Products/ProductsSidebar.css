@@ -1,0 +1,14 @@
+.sidebar {
+  background: white;
+  border-radius: 8px;
+}
+.category {
+  margin: 12px;
+}
+
+.category_head {
+}
+
+.category_text_wrapper {
+  margin-bottom: 12px;
+}

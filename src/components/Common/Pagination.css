@@ -1,0 +1,18 @@
+.pagination_wrapper {
+  justify-content: center;
+}
+
+.pagination_button {
+  margin: 10px;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.pagination_button:hover {
+  background: grey;
+  cursor: pointer;
+}
+
+.pagination_wrapper .active_page {
+  background: grey;
+}

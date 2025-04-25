@@ -1,0 +1,42 @@
+.herosection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: black;
+}
+
+.hero_text_wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25%;
+  line-height: 28px;
+}
+
+.hero_heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.hero_text_wrapper p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.buynow {
+  border: 2px solid white;
+  color: black;
+  background: white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.image_wrapper {
+}
+
+.hero_img {
+  height: 500px;
+}

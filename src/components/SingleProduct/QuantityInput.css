@@ -1,0 +1,19 @@
+.stock_button {
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background: #f89708;
+  color: wheat;
+  border: none;
+  font-size: 24px;
+  line-height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.stock_button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.stock {
+  padding: 0 16px;
+}

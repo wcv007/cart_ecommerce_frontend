@@ -1,0 +1,27 @@
+.link_icon {
+  padding: 0 8px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link_icon:hover {
+  text-decoration: underline;
+}
+
+.navbar_links_wrapper .active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.link_img {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+}
+
+.link_sidebar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}

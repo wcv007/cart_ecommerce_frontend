@@ -1,0 +1,22 @@
+.featuredproducts {
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff0f0;
+}
+
+.heading_wrapper {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.heading {
+}
+
+.product_wrapper {
+  margin: 30px;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
